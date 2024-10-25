@@ -29,7 +29,6 @@ app.get("/services/:id", async (req, res) => {
         });
 });
 
-
 // Error Handling
 app.use((err, req, res, next) => {
     console.error(err.stack)
